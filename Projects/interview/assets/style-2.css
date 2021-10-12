@@ -1,0 +1,35 @@
+head {<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+}
+body {
+	background-color: white;
+	padding: 20px;
+}
+
+h1 {font-size: 80px;
+width: 900px;
+margin-left: 250px;
+border-top-style: dotted;
+color: darkblue;
+font-family: 'Inconsolata', monospace;}
+
+.question
+{color: darkmagenta;
+margin-top: 50px;
+margin-left: 50px;
+font-weight: bold;
+border: 1px solid;
+ padding: 10px;
+  box-shadow: 5px 10px mediumpurple;
+width: 700px;}
+
+.answer
+{color: palevioletred;
+margin-left: 500px;
+width: 800px;
+font-weight: bold;
+margin-top: 30px;
+border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px pink;}
