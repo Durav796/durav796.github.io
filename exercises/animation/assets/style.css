@@ -1,6 +1,6 @@
 #Smiley {
   height:300px;
-    animation: spinType 60s;
+    animation: spinType 20s;
     animation-timing-function: ease-in-out; 
     animation-delay: 3s;
     animation-direction: alternate-reverse;
