@@ -1,12 +1,21 @@
 #Smiley {
-  height:500px;
-    animation: spinType 1s; 
+  height:300px;
+    animation: spinType 60s;
+    animation-timing-function: ease-in-out; 
+    animation-delay: 3s;
+    animation-direction: alternate-reverse;
   }
 @keyframes spinType {
-  0% { transform: rotate(0.5turn);
+  0% { transform: rotate(0.1turn);
   }
-  60%{
-    transform: rotate(0.7turn);
+  25%{transform: rotate(0.25turn);
+
+  }
+  50%{
+    transform: rotate(0.5turn);
+  }
+  75%{transform: rotate(0.75turn);
+
   }
   100% { transform: rotate(1turn);
   }
