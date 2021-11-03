@@ -1,6 +1,6 @@
 #Smiley {
   height:300px;
-    animation: spinType 20s;
+    animation: spinType 5s;
     animation-timing-function: ease-in-out; 
     animation-delay: 3s;
     animation-iteration-count: infinite;
@@ -8,12 +8,13 @@
   }
   #Smiley2 {
   height:300px;
-    animation: spinType 20s;
+    animation: spinType 5s;
     animation-timing-function: ease-in-out; 
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
   }
+
 @keyframes spinType {
   0% { transform: rotate(0.1turn);
   }
