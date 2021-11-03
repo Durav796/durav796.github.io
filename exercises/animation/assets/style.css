@@ -1,0 +1,10 @@
+#Smiley {
+  height:500px;
+    animation: spinType 1s; 
+}
+@keyframes spinType {
+  0% { transform: rotate(0.5turn);
+  }
+  100% { transform: rotate(1turn);
+  }
+}
