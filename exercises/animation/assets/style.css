@@ -10,17 +10,3 @@
   }
   100% { transform: rotate(1turn);
   }
-}
-#Smiley2 {
-  height:500px;
-    animation: spinType 5s; animation-timing-function: ease-in-out;animation-delay: 2s; animation-iteration-count: infinite;animation-direction: alternate-reverse;
-}
-@keyframes spinType {
-  0% { transform: rotate(0.5turn);
-  }
-  60%{
-    transform: rotate(0.7turn);
-  }
-  100% { transform: rotate(1turn);
-  }
-}
