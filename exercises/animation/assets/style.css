@@ -1,7 +1,7 @@
 #Smiley {
   height:500px;
-    animation: spinType 5s; animation-timing-function: ease-in-out;animation-delay: 2s; animation-iteration-count: infinite;animation-direction: alternate-reverse;
-}
+    animation: spinType 1s; 
+  }
 @keyframes spinType {
   0% { transform: rotate(0.5turn);
   }
