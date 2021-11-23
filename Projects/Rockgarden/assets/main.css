@@ -1,1 +1,9 @@
-head
+head{link rel="preconnect" href="https://fonts.googleapis.com"> link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet" }
+body{
+	background-color: #689957;
+}
+h1 {font-size: 82px;
+width: 600px;
+color: #E4E4E4;
+font-family: 'Russo One';
+}
